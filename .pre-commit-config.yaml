@@ -1,0 +1,12 @@
+repos:
+-   repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.96.1
+    hooks:
+    -   id: terraform_fmt
+        args:
+          - --args=-check
+          - --hook-config=--parallelism-ci-cpu-cores=1
+    -   id: terraform_validate
+    -   id: terraform_docs
+        args:
+          - --args=--output-file README.md
