@@ -5,7 +5,7 @@
 
 </div>
 
-<h1 align="center">Criando Cluster EKS Usando Terraform</h1>
+<h1 align="center">Cluster EKS Usando Terraform</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Pedrinhonitz/terraform-aws-eks-cluster?color=56BEB8&logo=github">
